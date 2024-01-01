@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <script src="JS/Script.js"></script>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+        }
+        .button{
+            color: white;
+            background-color: rgb(0, 198, 0);
+            border: none;
+            border-radius: 15px;
+            padding: 7px 10px;
+        }
+    </style>
+</head>
+<body>
+    Number 1 : <input type="text" id="Value1"><br><br>
+    Number 2 : <input type="text" id="Value2"><br><br>
+
+    <input type="button" class="button" value="Addition" onclick="Calculator('Addition')">
+    <input type="button" class="button" value="Subtraction" onclick="Calculator('Subtraction')">
+    <input type="button" class="button" value="Multiplication" onclick="Calculator('Multiplication')">
+    <input type="button" class="button" value="Division" onclick="Calculator('Division')"><br><br>
+
+    Answer : <label id="lblAnswer"></label>
+</body>
+</html>
