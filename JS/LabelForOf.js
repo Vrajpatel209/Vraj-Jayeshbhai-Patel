@@ -1,7 +1,7 @@
 function createVowel() {
     var label = document.createElement('label');
     label.innerText = char;
-    document.body.appendChild(label)
+    document.body.appendChild(label);
 }
 
 function forOfloop() {
@@ -15,4 +15,4 @@ function forOfloop() {
     /*for(let i = 0; i < vowel.length; i++){
         console.log(vowel[i]);
     }*/
-}
+}0
