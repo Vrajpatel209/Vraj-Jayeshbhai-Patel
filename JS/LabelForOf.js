@@ -12,7 +12,7 @@ let vowel = ['a', 'e', 'i', 'o', 'u'];
 function forOfloop() {
 
     for (letter in vowel) {
-        createVowel(letter + '-' + vowel[letter]);
+        createLabel(letter + '-' + vowel[letter]);
         //createVowel(vowel[letter]);
         //console.log(char);
     }
