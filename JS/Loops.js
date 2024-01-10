@@ -1,3 +1,4 @@
+
 function getNumI() {
     for (let x = 1; x <= 100; x++) {
         console.log(x);
@@ -37,5 +38,32 @@ function forIn() {
 function forOf() {
     for (let n of sibling) {
         console.log("n =", n);
+    }
+}
+
+//==========================================================================================================
+// Additional Practice of loops :-
+
+let topic = ["Intro", "Variable", "DataTypes", "Operators", "Conditional Statement", "Loops"];
+
+function forIn1(){
+    
+
+    for(let x in topic){
+        console.log(x);
+        console.log(topic[x]);
+    }
+}
+
+function forOf1(){
+    
+    for(let y of topic){
+        console.log(y);
+    }
+
+    let subtopic = 'InfiniteLoop'
+
+    for(let z of subtopic){
+        console.log(z);
     }
 }
