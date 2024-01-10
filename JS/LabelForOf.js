@@ -4,6 +4,11 @@ function createLabel(vraj) {
     document.body.appendChild(label)
 }
 
+function createLabelName(patel) {
+    var label = document.createElement('label');
+    label.innerText = patel;
+    document.body.appendChild(label)
+}
 //----------------------------------------------------------------------------------------------------------------
 // Print array in Label
 
@@ -31,17 +36,19 @@ function arrayPush() {
     myName.push("P", "A", "T", "E", "L");
 
     for (x of myName) {
-        createLabel(x);
+        createLabelName(x);
     }
+    createLabelName(" : ")
 }
 
 function arrayPop() {
 
     myName.pop();
-    
+    createLabelName(" | ")
     for(y of myName){
-        createLabel(y);
+        createLabelName(y);
     }
+    createLabelName(" | ")
 }
 
 //----------------------------------------------------------------------------------------------------------------
