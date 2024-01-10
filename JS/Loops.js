@@ -46,24 +46,24 @@ function forOf() {
 
 let topic = ["Intro", "Variable", "DataTypes", "Operators", "Conditional Statement", "Loops"];
 
-function forIn1(){
-    
+function forIn1() {
 
-    for(let x in topic){
+
+    for (let x in topic) {
         console.log(x);
         console.log(topic[x]);
     }
 }
 
-function forOf1(){
-    
-    for(let y of topic){
+function forOf1() {
+
+    for (let y of topic) {
         console.log(y);
     }
 
     let subtopic = 'InfiniteLoop'
 
-    for(let z of subtopic){
+    for (let z of subtopic) {
         console.log(z);
     }
 }
